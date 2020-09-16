@@ -1,7 +1,7 @@
 ﻿# Author: Duc Tran
 
 # an Array of servers list 
-$ServerList = Get-Content C:\Users\dtran\GitHub\psexec\ServerList.txt
+$ServerList = Get-Content "...\ServerList.txt"
 
 
 foreach ($Servers in $ServerList) {
